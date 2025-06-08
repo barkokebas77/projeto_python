@@ -4,7 +4,11 @@ def jogar_forca():
     palavras = ['computador', 'monitor', 'controle']
     palavra_secreta = random.choice(palavras)
     letras_corretas = ['_'] * len(palavra_secreta)
+<<<<<<< HEAD
     tentativas = 5
+=======
+    tentativas = 8
+>>>>>>> 6734f943d3956562aae5aeedbb3d11f4392946de
     letras_erradas = []
 
     print("Bem vindo ao Jogo da Forca")
@@ -37,4 +41,8 @@ def jogar_forca():
            print("Você perdeu! A palavra era:", palavra_secreta)
 
 if __name__ == "__main__":
+<<<<<<< HEAD
    jogar_forca()             
+=======
+    jogar_forca()
+>>>>>>> 6734f943d3956562aae5aeedbb3d11f4392946de
