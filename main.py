@@ -4,7 +4,7 @@ def jogar_forca():
     palavras = []
     palavra_secreta = random.choice(palavras)
     letras_corretas = ['_'] * len(palavra_secreta)
-    tentativas = 6
+    tentativas = 8
     letras_erradas = []
 
     print("Bem-vindo ao Jogo da Forca!")
