@@ -1,7 +1,7 @@
 import random
 
 def jogar_forca():
-    palavras = ['python', 'desenvolvimento', 'computador', 'projeto', 'programacao']
+    palavras = []
     palavra_secreta = random.choice(palavras)
     letras_corretas = ['_'] * len(palavra_secreta)
     tentativas = 6
